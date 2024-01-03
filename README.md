@@ -4,7 +4,7 @@
 
 <h2>Apercu du projet</h2>
 
-<img src="./assets/images/nina-github.png">
+<img src="./assets/images/nina-readme-github.png">
 
 <h2>Axes de travail</h2>
 

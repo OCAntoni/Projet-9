@@ -28,33 +28,34 @@
 	<script type="application/ld+json">
 		{
 			"@context" : "http://schema.org",
-			"@type" : "Person",
+			"@type" : "LocalBusiness",
 			"name" : "Nina Carducci",
 			"url" : "https://ocantoni.github.io/Projet-9/", 
-			"jobTitle" : "Photographe indépandante",
 			"image": "./assets/images/nina-carducci.webp",
 			"description": "Photographe passionée pour tous vos évènements, mariage, concert, mais aussi photo professionnel et portrait.",
-			"worksFor": {
-				"@type": "Organization",
-				"name": "Nina Carducci Photographie",
-				"url": "https://ocantoni.github.io/Projet-9/"
-			},
 		
 			"contactPoint": {
 				"@type": "ContactPoint",
 				"contactType": "customer service",
 				"email": "[nina.carducci@outlook.com]",
-				"telephone": "[05 56 67 78 89 ]",
-				"horaires": "10h-19h du lundi au vendredi"
+				"telephone": "[05 56 67 78 89 ]"
                 },
                 
-			"adress": {
+			"address": {
              	"@type": "PostalAddress",
               	"addressCountry": "FR",
 				"streetAddress": "68 avenue Alsace-Lorraine",
               	"addressLocality": "Bordeaux, France",
-              	"postalCode": "33200"
-            }
+              	"postalCode": "33200",
+                "addressRegion": "Nouvelle-Aquitaine"
+            },
+            
+            "openingHoursSpecification": {
+			  "@type": "OpeningHoursSpecification",
+			  "dayOfWeek": ["Monday", "Friday"],
+			  "opens": "10:00",
+			  "closes": "19:00"
+			}
         }
 	</script>
 	<meta name="description" content="Photographe passionée pour tous vos évènements, mariage, concert, mais aussi photo professionnel et portrait.">
